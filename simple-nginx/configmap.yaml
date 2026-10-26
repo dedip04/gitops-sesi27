@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>GitOps NGINX</title>
+    </head>
+    <body>
+      <h1>Ini tampilan dari NGINX dan nama saya Dedi Prastiyo</h1>
+    </body>
+    </html>
